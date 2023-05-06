@@ -6,6 +6,7 @@ import {
   AiFillLinkedin, 
   AiFillYoutube
 } from 'react-icons/ai';
+import deved from '../public/deved.png';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -31,15 +32,19 @@ export default function Home() {
           </nav>
 
           <div className=' text-center p-10'>
-            <h2>Dimitri Marco</h2>
-            <h3>Developer and designer</h3>
-            <p>Freelancer providing services for programmering needs. Join me down below and let's get cracked.</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Dimitri Marco</h2>
+            <h3 className='text-2xl py-2'>Developer and designer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800'>Freelancer providing services for programmering and design content needs. Join me down below and let's get cracking!</p>
           </div>
 
-          <div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillYoutube />
+          </div>
+
+          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20'>
+            <Image src={deved}/>
           </div>
 
         </section>
