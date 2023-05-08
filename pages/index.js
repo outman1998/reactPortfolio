@@ -54,7 +54,7 @@ export default function Home() {
         <section className='min-h-screen'>
 
           <nav className='p-10 mb-12 flex justify-between'>
-            <h1 className=' text-xl font-burtons dark:text-black'>OEM</h1>
+            <h1 className=' text-xl font-burtons dark:text-gray-800'>OEM</h1>
             <ul className=' flex items-center'>
               <li> 
                 <BsFillMoonStarsFill 
@@ -108,13 +108,13 @@ export default function Home() {
 
             <div className='mb-10'>
               <GrMysql  className='text-3xl text-gray-600 '/>
-              <h3 className='font-semibold text-xl	'>Back-end</h3>
+              <h3 className='font-semibold text-xl 	'>Back-end</h3>
               <p>MySQL</p>
               <p>Node.js</p>
               <p>Firebase</p>
             </div>
 
-            <div className='mb-10'>
+            <div className='mb-10 '>
               <SiTailwindcss  className='text-3xl text-gray-600 '/>
               <h3 className='font-semibold text-xl	'>CSS Frameworks</h3>
               <p>Tailwind CSS</p>
@@ -207,11 +207,11 @@ export default function Home() {
           <h3 className='text-3xl py-1 dark:text-gray-800 text-white'>Wanna get in touch?</h3>
           <p className='text-md py-1 dark:text-gray-800 text-white'>I'm always available for exciting discussions</p>
           <div className='flex items-center'>
-            <GrMail className='mr-2' />
+            <GrMail className='mr-2 text-white dark:text-gray-800' />
             <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
           </div>
           <div className='flex items-center'>
-            <MdOutlineLocationOn className='mr-2' />
+            <MdOutlineLocationOn className='mr-2 text-white dark:text-gray-800' />
             <p className='text-md dark:text-gray-800 text-white'>København, Denmark</p>
           </div>
         </section>
