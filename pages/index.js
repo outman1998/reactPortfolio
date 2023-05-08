@@ -20,6 +20,7 @@ import weatherapp from '../public/weatherapp.png';
 import webshop from '../public/webshop.png';
 import { GrMail } from "react-icons/gr";
 import { MdOutlineLocationOn } from "react-icons/md";
+import Head from 'next/head';
 
 
 
@@ -46,9 +47,17 @@ export default function Home() {
     window.open('https://github.com/outman1998', '_blank')
   }
 
+
   return (
+    
 
     <div className={darkMode ? "dark" : ""} >
+      
+    <Head>
+      <title>Outman El Mounir</title>
+      <meta name='description' content='Outman El Mounirs portfolio' />
+    </Head>
+
       <main className=' bg-gray-900 text-white px-5 md:px-20 lg:px-40 dark:bg-white'> 
 
         <section className='min-h-screen'>
@@ -220,4 +229,5 @@ export default function Home() {
     </div>
 
   )
+
 }
