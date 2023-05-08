@@ -47,7 +47,7 @@ export default function Home() {
   return (
 
     <div className={darkMode ? "dark" : ""} >
-      <main className=' bg-white text-black px-10 md:px-20 lg:px-40 dark:bg-gray-900'> 
+      <main className=' bg-white text-black px-5 md:px-20 lg:px-40 dark:bg-gray-900'> 
 
         <section className='min-h-screen'>
 
