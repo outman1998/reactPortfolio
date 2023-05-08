@@ -47,16 +47,16 @@ export default function Home() {
   return (
 
     <div className={darkMode ? "dark" : ""} >
-      <main className=' bg-white text-black px-5 md:px-20 lg:px-40 dark:bg-gray-900'> 
+      <main className=' bg-gray-900 text-white px-5 md:px-20 lg:px-40 dark:bg-white'> 
 
         <section className='min-h-screen'>
 
           <nav className='p-10 mb-12 flex justify-between'>
-            <h1 className=' text-xl font-burtons dark:text-white'>OEM</h1>
+            <h1 className=' text-xl font-burtons dark:text-black'>OEM</h1>
             <ul className=' flex items-center'>
               <li> 
                 <BsFillMoonStarsFill 
-                className='cursor-pointer text-2xl dark:text-white' 
+                className='cursor-pointer text-2xl dark:text-gray-800' 
                 onClick={() => setDarkMode(!darkMode)}/> 
               </li>
               <li>
@@ -67,8 +67,8 @@ export default function Home() {
 
           <div className=' text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>I'm Outman El Mounir</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>A frontend developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-800'>A frontend developer</h3>
+            <p className='text-md py-5 leading-8 text-white md:text-xl max-w-lg mx-auto dark:text-gray-800'>
             I enjoy designing and creating things that lives on the web
             </p>
           </div>
@@ -89,13 +89,13 @@ export default function Home() {
 
           <div>
           <div class="border-t-4  border-teal-600 w-8 mb-1"></div>
-            <h3 className='text-3xl py-1 dark:text-white '>Technologies</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Hi, I am a Frontend developer who is currently into React and JavaScript.
+            <h3 className='text-3xl py-1  dark:text-gray-800 text-white '>Technologies</h3>
+            <p className='text-md py-2 leading-8 text-white dark:text-gray-800'>Hi, I am a Frontend developer who is currently into React and JavaScript.
             I love creating modern user-friendly interfaces, where I am incredibly strong at developing frontend from scratch and also have good experience with styling frameworks with Tailwind as my favourite. All coding projects are built from the ground up, and many more to come.
             </p>
           </div>
 
-          <div className='md:flex justify-between mt-5 dark:text-white'>
+          <div className='md:flex justify-between mt-5 dark:text-gray-800 text-white'>
             <div className='mb-10'>
               <RiReactjsLine  className='text-3xl text-gray-600 '/>
               <h3 className='font-semibold text-xl	'>Front-end</h3>
@@ -134,8 +134,8 @@ export default function Home() {
         <section className='mt-20'>
         <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I specialize in creating stunning websites and digital experiences.
+            <h3 className='text-3xl py-1 dark:text-gray-800'>Portfolio</h3>
+            <p className='text-md py-2 leading-8 text-white dark:text-gray-800'>I specialize in creating stunning websites and digital experiences.
             </p>
           </div>
 
@@ -202,10 +202,10 @@ export default function Home() {
 
         <section className='mt-20 pb-10'>
         <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
-          <h3 className='text-3xl py-1 dark:text-white'>Wanna get in touch?</h3>
-          <p className='text-md py-1 dark:text-white'>I am always available for exciting discussions</p>
-          <p className='text-md dark:text-white'>outmanmounir98@hotmail.com</p>
-          <p className='text-md dark:text-white'>København, Denmark</p>
+          <h3 className='text-3xl py-1 dark:text-gray-800 text-white'>Wanna get in touch?</h3>
+          <p className='text-md py-1 dark:text-gray-800 text-white'>I am always available for exciting discussions</p>
+          <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
+          <p className='text-md dark:text-gray-800 text-white'>København, Denmark</p>
         </section>
 
       </main>
