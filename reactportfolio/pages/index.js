@@ -16,6 +16,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 import { GrMysql } from "react-icons/gr";
 import { BsLightbulb } from "react-icons/bs";
+import weatherapp from '../public/weatherapp.png';
 
 
 
@@ -147,7 +148,7 @@ export default function Home() {
               height={'100%'} 
               layout="responsive"/> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
                 <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/outman1998/foodOrderApp' target="_blank">
                   Code</a></button>
               </div>
@@ -155,14 +156,15 @@ export default function Home() {
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
-              src={web1}  
+              src={weatherapp}  
               className="rounded-lg object-cover"
               width={'100%'} 
               height={'100%'} 
               layout="responsive" /> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/outman1998/weatherApp' target="_blank">
+                  Code</a></button>
               </div>
             </div>
 
@@ -174,7 +176,7 @@ export default function Home() {
               height={'100%'}
               layout="responsive" /> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
                 <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
               </div>
             </div>
@@ -187,7 +189,7 @@ export default function Home() {
               height={'100%'}
               layout="responsive" /> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
                 <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
               </div>
             </div>
