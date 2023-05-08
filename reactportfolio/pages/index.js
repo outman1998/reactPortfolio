@@ -4,6 +4,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin } from 'react-icons/ai';
 import deved from '../public/deved.png';
 import code from '../public/code.png';
+import foodapp from '../public/foodorderapp.png';
 import web1 from '../public/web1.png';
 import {FaEnvelope} from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -140,14 +141,15 @@ export default function Home() {
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
-              src={web1} 
+              src={foodapp} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
                 <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/outman1998/foodOrderApp' target="_blank">
+                  Code</a></button>
               </div>
             </div>
 
