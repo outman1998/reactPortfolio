@@ -126,8 +126,8 @@ export default function Home() {
               <BsLightbulb className='text-3xl text-gray-600 '/>
               <h3 className='font-semibold text-xl'>UI / UX</h3>
               <p>Figma</p>
-              <p>Atomic design</p>
-              <p>Affordances & signifiers</p>
+              <p>Design patterns</p>
+              <p>Responsive design</p>
             </div>
           </div>
 
