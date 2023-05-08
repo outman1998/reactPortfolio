@@ -8,6 +8,17 @@ import web1 from '../public/web1.png';
 import {FaEnvelope} from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from 'react';
+import { AiFillHtml5 } from "react-icons/ai";
+SiVisualstudio
+import { SiVisualstudio, SiTailwindcss } from "react-icons/si";
+import { RiReactjsLine } from "react-icons/ri";
+import { BsGithub } from "react-icons/bs";
+import { GrMysql } from "react-icons/gr";
+import { BsLightbulb } from "react-icons/bs";
+
+
+
+
 
 
 
@@ -17,6 +28,19 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const [darkMode, setDarkMode] = useState(false);
+
+  const sendToMail = () => {
+      window.open("https://www.facebook.com/outman.mounir.12/", "_blank")
+  }
+
+  const sendTolinkedIn = () => {
+    window.open("https://www.linkedin.com/in/outman-el-mounir-8a71711a1/", "_blank")
+
+  }
+
+  const sendtoGithub = () => {
+    window.open('https://github.com/outman1998', '_blank')
+  }
 
   return (
 
@@ -40,15 +64,16 @@ export default function Home() {
           </nav>
 
           <div className=' text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Outman El Mounir</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Frontend developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Frontend developer providing services for programmering and design content needs. Join me down below and let's get cracking!</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium'>I'm Outman El Mounir</h2>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>A frontend developer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>A Frontend developer who bleeds for creating modern UI
+            </p>
           </div>
 
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <FaFacebookSquare />
-            <AiFillLinkedin />
-            <FaEnvelope />
+            <FaFacebookSquare className='cursor-pointer' onClick={() => sendToMail()}/>
+            <AiFillLinkedin className='cursor-pointer' onClick={() => sendTolinkedIn()} />
+            <BsGithub className='cursor-pointer' onClick={() => sendtoGithub()} />
           </div>
 
           <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
@@ -57,108 +82,124 @@ export default function Home() {
       
         </section>
 
-        <section>
+        <section className='mt-20'>
 
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>My expertise</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Frontend developer providing services for programmering and design content needs. Join me down below and let's get cracking!
-            <span className='text-teal-500'>Agencies</span>
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming and design.
+          <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
+            <h3 className='text-3xl py-1 dark:text-white'>Technologies</h3>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Hi, I am a Frontend developer who is currently into React and JavaScript.
+            I love creating modern user-friendly interfaces, where I am incredibly strong at developing frontend from scratch and also have good experience with styling frameworks with Tailwind as my favourite. All coding projects are built from the ground up, and many more to come.
             </p>
           </div>
 
-          <div className='lg:flex gap-10 '>
-
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
-              <Image className='m-auto' src={code}  width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>HTML & CSS</h3>
-              <p className='py-2 '>
-              Worked with HTML & CSS for a couple of years, and have big experience with the markup language and style sheet.</p>
-              <h4 className='py-4 text-teal-600 dark:text-white'>Tools i use</h4>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>HTML & CSS</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>React</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>Angular</p>
+          <div className='md:flex justify-between mt-5 dark:text-white'>
+            <div className='mb-10'>
+              <RiReactjsLine  className='text-3xl text-gray-600 '/>
+              <h3 className='font-semibold text-xl	'>Front-end</h3>
+              <p>React</p>
+              <p>Angular</p>
+              <p>JS/TS</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
-              <Image className='m-auto' src={code}  width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2 '>CSS frameworks</h3>
-              <p className='py-2'>
-              Good experience with CSS frameworks where my favourites are Tailwind, Bootstrap & Bulma.</p>
-              <h4 className='py-4 text-teal-600 dark:text-white'>Tools i use</h4>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>HTML & CSS</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>React</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>Angular</p>
+            <div className='mb-10'>
+              <GrMysql  className='text-3xl text-gray-600 '/>
+              <h3 className='font-semibold text-xl	'>Back-end</h3>
+              <p>MySQL</p>
+              <p>Node.js</p>
+              <p>Firebase</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
-              <Image className='m-auto' src={code}  width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Frameworks & libraries</h3>
-              <p className='py-2'>
-              Working and still learning a lot about React and Angular with help from JavaScript and TypeScript.
-              </p>
-              <h4 className='py-4 text-teal-600 dark:text-white'>Tools i use</h4>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>HTML & CSS</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>React</p>
-              <p className='text-gray-800 py-1 dark:text-teal-600'>Angular</p>
+            <div className='mb-10'>
+              <SiTailwindcss  className='text-3xl text-gray-600 '/>
+              <h3 className='font-semibold text-xl	'>CSS Frameworks</h3>
+              <p>Tailwind CSS</p>
+              <p>Bootstrap</p>
+              <p>Bulma</p>
             </div>
 
+            <div>
+              <BsLightbulb className='text-3xl text-gray-600 '/>
+              <h3 className='font-semibold text-xl'>UI / UX</h3>
+              <p>Figma</p>
+              <p>Atomic design</p>
+              <p>Affordances & signifiers</p>
+            </div>
           </div>
 
         </section>
 
-        <section>
-
+        <section className='mt-20'>
+        <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Frontend developer providing services for programmering and design content needs. Join me down below and let's get cracking!
-            <span className='text-teal-500'>Agencies</span>
-            </p>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming and design.
             </p>
           </div>
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
 
-            <div className="basis-1/3 flex-1"> 
+            <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'} 
               layout="responsive"/> 
+              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+              </div>
             </div>
 
-            <div className="basis-1/3 flex-1"> 
+            <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1}  
               className="rounded-lg object-cover"
               width={'100%'} 
               height={'100%'} 
               layout="responsive" /> 
+              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+              </div>
             </div>
 
-            <div className="basis-1/3 flex-1"> 
+            <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1}  
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'}
               layout="responsive" /> 
+              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+              </div>
             </div>
 
-            <div className="basis-1/3 flex-1"> 
+            <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1} 
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'}
               layout="responsive" /> 
+              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
+                <button className='bg-black text-white px-4 py-2 rounded-md'>See demo</button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+              </div>
             </div>
 
           </div>
 
+        </section>
+
+        <section className='mt-20 pb-10'>
+        <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
+          <h3 className='text-3xl py-1 dark:text-white'>Wanna get in touch?</h3>
+          <p className='text-md py-1 dark:text-white'>I am always available for exciting discussions</p>
+          <p className='text-md dark:text-white'>outmanmounir98@hotmail.com</p>
+          <p className='text-md dark:text-white'>København, Denmark</p>
         </section>
 
       </main>
