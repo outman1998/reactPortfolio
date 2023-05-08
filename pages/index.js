@@ -17,7 +17,7 @@ import { BsGithub } from "react-icons/bs";
 import { GrMysql } from "react-icons/gr";
 import { BsLightbulb } from "react-icons/bs";
 import weatherapp from '../public/weatherapp.png';
-
+import webshop from '../public/webshop.png';
 
 
 
@@ -68,7 +68,8 @@ export default function Home() {
           <div className=' text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>I'm Outman El Mounir</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>A frontend developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>A Frontend developer who bleeds for creating modern UI
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>
+            I enjoy designing and creating things that lives on the web
             </p>
           </div>
 
@@ -87,8 +88,8 @@ export default function Home() {
         <section className='mt-20'>
 
           <div>
-          <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
-            <h3 className='text-3xl py-1 dark:text-white'>Technologies</h3>
+          <div class="border-t-4  border-teal-600 w-8 mb-1"></div>
+            <h3 className='text-3xl py-1 dark:text-white '>Technologies</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Hi, I am a Frontend developer who is currently into React and JavaScript.
             I love creating modern user-friendly interfaces, where I am incredibly strong at developing frontend from scratch and also have good experience with styling frameworks with Tailwind as my favourite. All coding projects are built from the ground up, and many more to come.
             </p>
@@ -134,7 +135,7 @@ export default function Home() {
         <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
           <div>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming and design.
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I specialize in creating stunning websites and digital experiences.
             </p>
           </div>
 
@@ -170,14 +171,15 @@ export default function Home() {
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
-              src={web1}  
+              src={webshop}  
               className="rounded-lg object-cover" 
               width={'100%'} 
               height={'100%'}
               layout="responsive" /> 
               <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+                <button className='bg-black text-white px-4 py-2 rounded-md'> <a href='https://smykkewebshop.vercel.app/' target="_blank">View demo</a></button>
+                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/TheSpahThatSpies/smykkewebshop' target="_blank">
+                  Code</a></button>             
               </div>
             </div>
 
