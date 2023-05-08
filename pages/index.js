@@ -18,6 +18,8 @@ import { GrMysql } from "react-icons/gr";
 import { BsLightbulb } from "react-icons/bs";
 import weatherapp from '../public/weatherapp.png';
 import webshop from '../public/webshop.png';
+import { GrMail } from "react-icons/gr";
+import { MdOutlineLocationOn } from "react-icons/md";
 
 
 
@@ -90,8 +92,8 @@ export default function Home() {
           <div>
           <div class="border-t-4  border-teal-600 w-8 mb-1"></div>
             <h3 className='text-3xl py-1  dark:text-gray-800 text-white '>Technologies</h3>
-            <p className='text-md py-2 leading-8 text-white dark:text-gray-800'>Hi, I am a Frontend developer who is currently into React and JavaScript.
-            I love creating modern user-friendly interfaces, where I am incredibly strong at developing frontend from scratch and also have good experience with styling frameworks with Tailwind as my favourite. All coding projects are built from the ground up, and many more to come.
+            <p className='text-md py-2 leading-8 text-white dark:text-gray-800'>I'm a Frontend developer who is currently into React and JavaScript.
+            I love creating modern user-friendly interfaces, where I'm incredibly strong at developing frontend from scratch and also have good experience with styling frameworks with Tailwind as my favourite. All coding projects are built from the ground up, and many more to come.
             </p>
           </div>
 
@@ -203,9 +205,15 @@ export default function Home() {
         <section className='mt-20 pb-10'>
         <div class="border-t-4 border-teal-600 w-8 mb-1"></div>
           <h3 className='text-3xl py-1 dark:text-gray-800 text-white'>Wanna get in touch?</h3>
-          <p className='text-md py-1 dark:text-gray-800 text-white'>I am always available for exciting discussions</p>
-          <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
-          <p className='text-md dark:text-gray-800 text-white'>København, Denmark</p>
+          <p className='text-md py-1 dark:text-gray-800 text-white'>I'm always available for exciting discussions</p>
+          <div className='flex items-center'>
+            <GrMail className='mr-2' />
+            <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
+          </div>
+          <div className='flex items-center'>
+            <MdOutlineLocationOn className='mr-2' />
+            <p className='text-md dark:text-gray-800 text-white'>København, Denmark</p>
+          </div>
         </section>
 
       </main>
