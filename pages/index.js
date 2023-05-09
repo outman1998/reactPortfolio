@@ -1,26 +1,22 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin } from 'react-icons/ai';
 import deved from '../public/deved.png';
-import code from '../public/code.png';
 import foodapp from '../public/foodorderapp.png';
 import web1 from '../public/web1.png';
-import {FaEnvelope} from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from 'react';
-import { AiFillHtml5 } from "react-icons/ai";
 SiVisualstudio
 import { SiVisualstudio, SiTailwindcss } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
-import { BsGithub } from "react-icons/bs";
-import { GrMysql } from "react-icons/gr";
-import { BsLightbulb } from "react-icons/bs";
 import weatherapp from '../public/weatherapp.png';
 import webshop from '../public/webshop.png';
-import { GrMail } from "react-icons/gr";
+import { GrMail, GrMysql } from "react-icons/gr";
 import { MdOutlineLocationOn } from "react-icons/md";
 import Head from 'next/head';
+import { BsArrowRightCircleFill, BsLightbulb, BsGithub, BsFillMoonStarsFill } from "react-icons/bs";
+import { MdLightMode } from "react-icons/md";
+
 
 
 
@@ -52,7 +48,7 @@ export default function Home() {
     
 
     <div className={darkMode ? "dark" : ""} >
-      
+
     <Head>
       <title>Outman El Mounir</title>
       <meta name='description' content='Outman El Mounirs portfolio' />
@@ -65,11 +61,15 @@ export default function Home() {
           <nav className='p-10 mb-12 flex justify-between'>
             <h1 className=' text-xl font-burtons dark:text-gray-800'>OEM</h1>
             <ul className=' flex items-center'>
-              <li> 
+              {darkMode ? <li> 
                 <BsFillMoonStarsFill 
                 className='cursor-pointer text-2xl dark:text-gray-800' 
                 onClick={() => setDarkMode(!darkMode)}/> 
-              </li>
+              </li> : <li> 
+                <MdLightMode 
+                className='cursor-pointer text-2xl dark:text-gray-800' 
+                onClick={() => setDarkMode(!darkMode)}/> 
+              </li>}
               <li>
                 <a className=' bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href='https://github.com/outman1998' target="_blank">Github</a>
               </li>
@@ -155,56 +155,80 @@ export default function Home() {
             <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={foodapp} 
-              className="rounded-lg object-cover" 
+              className="rounded-lg h-60 md:h-72" 
               width={'100%'} 
-              height={'100%'} 
-              layout="responsive"/> 
-              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/outman1998/foodOrderApp' target="_blank">
+              /> 
+              <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
+       
+                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
+                  <span className='mr-2'>View demo</span>
+                  <BsArrowRightCircleFill/>
+                </div>
+                <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/outman1998/foodOrderApp' target="_blank">
                   Code</a></button>
+
               </div>
             </div>
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={weatherapp}  
-              className="rounded-lg object-cover"
+              className="rounded-lg h-60 md:h-72"
               width={'100%'} 
-              height={'100%'} 
-              layout="responsive" /> 
-              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/outman1998/weatherApp' target="_blank">
-                  Code</a></button>
+               /> 
+
+              <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
+       
+                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
+                  <span className='mr-2'>View demo</span>
+                  <BsArrowRightCircleFill/>
+                </div>
+                <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/outman1998/weatherApp' target="_blank">
+                  Code</a>
+                </button>
+                
               </div>
+              
             </div>
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={webshop}  
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'}
-              layout="responsive" /> 
-              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'> <a href='https://smykkewebshop.vercel.app/' target="_blank">View demo</a></button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'><a href='https://github.com/TheSpahThatSpies/smykkewebshop' target="_blank">
-                  Code</a></button>             
+              className="rounded-lg h-60 md:h-72" 
+              /> 
+
+              <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
+       
+                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
+                  <span className='mr-2'>View demo</span>
+                  <BsArrowRightCircleFill/>
+                </div>
+                <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/TheSpahThatSpies/smykkewebshop' target="_blank">
+                  Code</a>
+                </button>
+       
               </div>
+
             </div>
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1} 
-              className="rounded-lg object-cover" 
-              width={'100%'} 
-              height={'100%'}
-              layout="responsive" /> 
-              <div className=' absolute pr-5 pl-5 flex justify-between w-full	 bottom-0 left-0 pb-4'>
-                <button className='bg-black text-white px-4 py-2 rounded-md'>View demo</button>
-                <button className=' bg-black text-white px-4 py-2 rounded-md ml-8'>Code</button>
+              className="rounded-lg h-60  md:h-72	" 
+              /> 
+
+              <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
+                
+                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
+                  <span className='mr-2'>View demo</span>
+                  <BsArrowRightCircleFill/>
+                </div>
+                <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/TheSpahThatSpies/smykkewebshop' target="_blank">
+                  Code</a>
+                </button>
+
               </div>
+
             </div>
 
           </div>
