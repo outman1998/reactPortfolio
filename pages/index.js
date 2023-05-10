@@ -48,7 +48,7 @@ export default function Home() {
     if(demo === 'webshop') {
       window.open('https://smykkewebshop.vercel.app/', '_blank')
     } else if (demo === 'weatherapp') {
-      window.open('https://weather-app-outman1998.vercel.app/', '_blank')
+      window.open('https://iweather-outman1998.vercel.app/', '_blank')
 
     }
 
