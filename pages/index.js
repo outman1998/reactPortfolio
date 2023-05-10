@@ -43,6 +43,18 @@ export default function Home() {
     window.open('https://github.com/outman1998', '_blank')
   }
 
+  const sendToDemo = (demo) => {
+
+    if(demo === 'webshop') {
+      window.open('https://smykkewebshop.vercel.app/', '_blank')
+    } else if (demo === 'weatherapp') {
+      window.open('https://weather-app-outman1998.vercel.app/', '_blank')
+
+    }
+
+  }
+
+
 
   return (
     
@@ -158,9 +170,10 @@ export default function Home() {
               className="rounded-lg h-60 md:h-72" 
               width={'100%'} 
               /> 
+
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
-                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
+                <div className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
                   <span className='mr-2'>View demo</span>
                   <BsArrowRightCircleFill/>
                 </div>
@@ -179,7 +192,7 @@ export default function Home() {
 
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
-                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
+                <div onClick={() => sendToDemo('weatherapp')} className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
                   <span className='mr-2'>View demo</span>
                   <BsArrowRightCircleFill/>
                 </div>
@@ -194,12 +207,12 @@ export default function Home() {
             <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={webshop}  
-              className="rounded-lg h-60 md:h-72" 
+              className="rounded-lg h-60 md:object-cover md:object-top md:h-96" 
               /> 
 
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
-                <div className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
+                <div onClick={() => sendToDemo('webshop')} className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
                   <span className='mr-2'>View demo</span>
                   <BsArrowRightCircleFill/>
                 </div>
@@ -211,7 +224,7 @@ export default function Home() {
 
             </div>
 
-            <div className="basis-1/3 relative flex-1"> 
+            {/* <div className="basis-1/3 relative flex-1"> 
               <Image 
               src={web1} 
               className="rounded-lg h-60  md:h-72	" 
@@ -229,7 +242,7 @@ export default function Home() {
 
               </div>
 
-            </div>
+            </div> */}
 
           </div>
 
