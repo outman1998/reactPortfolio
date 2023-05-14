@@ -9,13 +9,14 @@ import { useState } from 'react';
 SiVisualstudio
 import { SiVisualstudio, SiTailwindcss } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
-import weatherapp from '../public/weatherapp.png';
+import weather from '../public/weather.png';
 import webshop from '../public/webshop.png';
 import { GrMail, GrMysql } from "react-icons/gr";
 import { MdOutlineLocationOn } from "react-icons/md";
 import Head from 'next/head';
 import { BsArrowRightCircleFill, BsLightbulb, BsGithub, BsFillMoonStarsFill } from "react-icons/bs";
 import { MdLightMode } from "react-icons/md";
+import foto from '../public/foto.jpg';
 
 
 
@@ -53,7 +54,6 @@ export default function Home() {
     }
 
   }
-
 
 
   return (
@@ -102,8 +102,8 @@ export default function Home() {
             <BsGithub className='cursor-pointer' onClick={() => sendtoGithub()} />
           </div>
 
-          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} layout="fill" objectFit='cover'/>
+          <div className='relative mx-auto  bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 		'>
+            <Image className='-mt-10' src={foto}/>
           </div>
       
         </section>
@@ -174,7 +174,7 @@ export default function Home() {
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
                 <div className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
-                  <span className='mr-2'>View demo</span>
+                  <span className='mr-2'>View live</span>
                   <BsArrowRightCircleFill/>
                 </div>
                 <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/outman1998/foodOrderApp' target="_blank">
@@ -185,7 +185,7 @@ export default function Home() {
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
-              src={weatherapp}  
+              src={weather}  
               className="rounded-lg h-60 md:h-72"
               width={'100%'} 
                /> 
@@ -193,7 +193,7 @@ export default function Home() {
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
                 <div onClick={() => sendToDemo('weatherapp')} className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
-                  <span className='mr-2'>View demo</span>
+                  <span className='mr-2'>View live</span>
                   <BsArrowRightCircleFill/>
                 </div>
                 <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/outman1998/weatherApp' target="_blank">
@@ -213,7 +213,7 @@ export default function Home() {
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
                 <div onClick={() => sendToDemo('webshop')} className='bg-gray-900 flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative cursor-pointer'>
-                  <span className='mr-2'>View demo</span>
+                  <span className='mr-2'>View live</span>
                   <BsArrowRightCircleFill/>
                 </div>
                 <button className=' bg-white text-gray-900 px-4 py-2 rounded-md text-sm md:text-base ml-8'><a href='https://github.com/TheSpahThatSpies/smykkewebshop' target="_blank">
@@ -255,11 +255,13 @@ export default function Home() {
           <div className='flex items-center'>
             <GrMail className='mr-2 text-white dark:text-gray-800' />
             <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
+            
           </div>
           <div className='flex items-center'>
             <MdOutlineLocationOn className='mr-2 text-white dark:text-gray-800' />
             <p className='text-md dark:text-gray-800 text-white'>København, Denmark</p>
           </div>
+          
         </section>
 
       </main>
