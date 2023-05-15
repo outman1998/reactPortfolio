@@ -50,7 +50,8 @@ export default function Home() {
       window.open('https://smykkewebshop.vercel.app/', '_blank')
     } else if (demo === 'weatherapp') {
       window.open('https://iweather-outman1998.vercel.app/', '_blank')
-
+    } else if (demo === 'foodapp') {
+      window.open('https://food-order-app-henna-five.vercel.app/', '_blank')
     }
 
   }
@@ -173,7 +174,7 @@ export default function Home() {
 
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
-                <div className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
+                <div onClick={() => sendToDemo('foodapp')} className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
                   <span className='mr-2'>View live</span>
                   <BsArrowRightCircleFill/>
                 </div>
