@@ -255,7 +255,7 @@ export default function Home() {
           <p className='text-md py-1 dark:text-gray-800 text-white'>I'm always available for exciting discussions</p>
           <div className='flex items-center'>
             <GrMail className='mr-2 text-white dark:text-gray-800' />
-            <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@hotmail.com</p>
+            <p className='text-md dark:text-gray-800 text-white'>outmanmounir98@gmail.com</p>
             
           </div>
           <div className='flex items-center'>
