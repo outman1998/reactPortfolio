@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import {AiFillLinkedin } from 'react-icons/ai';
 import deved from '../public/deved.png';
 import foodapp from '../public/foodorderapp.png';
+import crypto from '../public/cryp.png';
 import web1 from '../public/web1.png';
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from 'react';
@@ -50,8 +51,8 @@ export default function Home() {
       window.open('https://smykkewebshop.vercel.app/', '_blank')
     } else if (demo === 'weatherapp') {
       window.open('https://iweather-outman1998.vercel.app/', '_blank')
-    } else if (demo === 'foodapp') {
-      window.open('https://food-order-app-henna-five.vercel.app/', '_blank')
+    } else if (demo === 'crypto') {
+      window.open('https://cryptocurrency-gules.vercel.app/', '_blank')
     }
 
   }
@@ -167,14 +168,14 @@ export default function Home() {
 
             <div className="basis-1/3 relative flex-1"> 
               <Image 
-              src={foodapp} 
+              src={crypto} 
               className="rounded-lg h-60 md:h-72" 
               width={'100%'} 
               /> 
 
               <div className=' absolute flex bottom-4 bg-gray-200/50 px-3 backdrop-blur-sm bg-opacity-100 text-dark-bg text-center  mx-5 pb-4 pt-5 rounded-xl'>
        
-                <div onClick={() => sendToDemo('foodapp')} className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
+                <div onClick={() => sendToDemo('crypto')} className='bg-gray-900 cursor-pointer flex items-center text-white px-4 py-2 rounded-md text-sm md:text-base relative'>
                   <span className='mr-2'>View live</span>
                   <BsArrowRightCircleFill/>
                 </div>
