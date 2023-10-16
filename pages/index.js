@@ -124,9 +124,9 @@ export default function Home() {
             <div className='mb-10'>
               <RiReactjsLine  className='text-3xl text-gray-600 '/>
               <h3 className='font-semibold text-xl	'>Front-end</h3>
+              <p>Next.js</p>
               <p>React</p>
-              <p>Angular</p>
-              <p>JS/TS</p>
+              <p>Javascript</p>
             </div>
 
             <div className='mb-10'>
@@ -140,9 +140,9 @@ export default function Home() {
             <div className='mb-10 '>
               <SiTailwindcss  className='text-3xl text-gray-600 '/>
               <h3 className='font-semibold text-xl	'>CSS Frameworks</h3>
+              <p>Next UI</p>
               <p>Tailwind CSS</p>
               <p>Bootstrap</p>
-              <p>Bulma</p>
             </div>
 
             <div>
