@@ -1,10 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import {AiFillLinkedin } from 'react-icons/ai';
-import deved from '../public/deved.png';
-import foodapp from '../public/foodorderapp.png';
-import crypto from '../public/cryp.png';
-import web1 from '../public/web1.png';
+import crypto from '../public/crrypto.png';
 import { FaFacebookSquare } from "react-icons/fa";
 import { useState } from 'react';
 SiVisualstudio
@@ -18,15 +15,6 @@ import Head from 'next/head';
 import { BsArrowRightCircleFill, BsLightbulb, BsGithub, BsFillMoonStarsFill } from "react-icons/bs";
 import { MdLightMode } from "react-icons/md";
 import foto from '../public/foto.jpg';
-
-
-
-
-
-
-
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
