@@ -19,6 +19,7 @@ export default function Home() {
     <Head>
       <title>Outman El Mounir</title>
       <meta name='description' content='Outman El Mounirs portfolio' />
+      <link rel="icon" href='https://www.stefantopalovic.com/porticon.png' />
     </Head>
 
       <main className=' text-white dark:bg-[#19222a] bg-white'> 
