@@ -27,3 +27,65 @@ body {
 }
 
 
+.specialDiv {
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  padding: 10px;
+  animation: customAnimation 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  background-size: contain;
+}
+
+
+
+@keyframes customAnimation {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.rotate {
+  animation: rotate 9s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.container {
+  margin: 0 auto;
+    max-width: 75rem;
+    padding: 0 2rem;
+}
+
+.pro_1 {
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 1.7rem;
+}
+
+.pro_img {
+  border-radius: 1.7rem;
+
+}
+
+.image {
+  border-radius: 1.7rem;
+}
+
+
+.img img {
+  height: 100%;
+}
+
+.billed {
+  max-height: 430px;
+  max-width: 300px;
+}
