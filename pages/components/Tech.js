@@ -1,8 +1,4 @@
 import React from 'react'
-import { RiReactjsLine } from "react-icons/ri";
-import { GrMysql } from "react-icons/gr";
-import { SiTailwindcss } from "react-icons/si";
-import { BsLightbulb } from "react-icons/bs";
 
 export default function Tech() {
   return (
@@ -25,7 +21,7 @@ export default function Tech() {
 
           <div className='lg:ml-20 mt-10 lg:mt-0 max-w-3xl m-auto lg:m-0 text-center lg:text-left lg:w-[500px] '>
             <p className=' font-bold text-xl dark:text-[#32383d] text-[#137efb]'>About Me</p>
-            <h3 className='font-bold text-2xl my-3 text-[#2d2e32] dark:text-white'>A dedicated front-end developer based in Copenhagen, Denmark</h3>
+            <h3 className='font-bold text-2xl mb-3 text-[#2d2e32] dark:text-white'>A dedicated front-end developer based in Copenhagen, Denmark</h3>
 
             <p className='text-[#767676] dark:text-white'>
             As a junior front-end developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.
