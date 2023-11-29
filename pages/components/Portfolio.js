@@ -148,7 +148,7 @@ export default function Portfolio(props) {
                 }}
                     className='p-2 rounded-md'
                   >
-                      CSS
+                      Laravel
                   </p>
                 </div>
 
