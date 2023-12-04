@@ -36,7 +36,7 @@ export default function Portfolio(props) {
 
             <div className='pro_1 dark:bg-[#11111133] bg-white shadow-md lg:flex lg:flex-row lg:gap-4 lg:h-96 p-4'>
 
-              <div className='pro_img bg-hsla bg-opacity-20 shadow-md overflow-hidden h-64 lg:h-full'>
+              <div className='pro_img bg-hsla bg-opacity-20 shadow-md overflow-hidden h-[10rem] lg:h-full'>
                 <Image className='image w-full h-full rounded-lg' src={crypto} />
               </div>
 
@@ -81,7 +81,7 @@ export default function Portfolio(props) {
 
             <div className='pro_1 dark:bg-[#11111133] bg-white rounded-xl shadow-md lg:flex lg:flex-row-reverse lg:gap-4 lg:h-96 p-4'>
 
-              <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-64 lg:h-full'>
+              <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-[10rem] lg:h-full'>
                 <Image className='w-full h-full rounded-lg' src={weather} />
               </div>
 
@@ -124,7 +124,7 @@ export default function Portfolio(props) {
             </div>
 
             <div className='pro_1 dark:bg-[#11111133] bg-white rounded-xl shadow-md lg:flex lg:flex-row lg:gap-4 lg:h-96 p-4'>
-              <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-64 lg:h-full'>
+              <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-[10rem] lg:h-full'>
                 <Image className='w-full h-full rounded-lg' src={webshop} />
               </div>
 

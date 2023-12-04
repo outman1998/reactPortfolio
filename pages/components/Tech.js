@@ -14,7 +14,7 @@ export default function Tech() {
               
             </img>
 
-            <span className=' absolute bottom-[-33px] right-[-10px] lg:right-[-33px] bg-white rounded-full h-[10rem] w-[10rem]  lg:h-[12rem] lg:w-[12rem]'>
+            <span className=' absolute bottom-[-15px] right-[-10px] lg:right-[-33px] bg-white rounded-full h-[7rem] w-[7rem]  lg:h-[12rem] lg:w-[12rem]'>
               <img className='rotate' src='https://www.stefantopalovic.com/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg' />
             </span>
           </div>
