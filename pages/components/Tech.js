@@ -37,44 +37,44 @@ export default function Tech() {
           <div className='flex justify-center items-center'>
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 rounded' src={'https://www.svgrepo.com/show/353925/javascript.svg'} />
-              <p className='text-black mt-2'>javascript</p>
+              <p className='text-[#767676] mt-2'>javascript</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto rounded-md' src={'https://www.svgrepo.com/show/354259/react.svg'} />
-              <p className='text-black mt-2'>React</p>
+              <p className='text-[#767676] mt-2'>React</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/452228/html-5.svg'} />
-              <p className='text-black mt-2'>HTML5</p>
+              <p className='text-[#767676] mt-2'>HTML5</p>
             </div>
 
             <div className='text-center'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/452185/css-3.svg'} />
-              <p className='text-black mt-2'>CSS</p>
+              <p className='text-[#767676] mt-2'>CSS</p>
             </div>
           </div>
 
           <div className='flex mt-5 justify-center items-center'>
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 rounded' src={'https://www.svgrepo.com/show/378440/nextjs-fill.svg'} />
-              <p className='text-black mt-2'>Next.js</p>
+              <p className='text-[#767676] mt-2'>Next.js</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto rounded-md' src={'https://www.svgrepo.com/show/452210/git.svg'} />
-              <p className='text-black mt-2'>Git</p>
+              <p className='text-[#767676] mt-2'>Git</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/374068/scss.svg'} />
-              <p className='text-black mt-2'>SCSS</p>
+              <p className='text-[#767676] mt-2'>SCSS</p>
             </div>
 
             <div className='text-center'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/374118/tailwind.svg'} />
-              <p className='text-black mt-2'>Tailwind</p>
+              <p className='text-[#767676] mt-2'>Tailwind</p>
             </div>
           </div>
 
@@ -88,22 +88,22 @@ export default function Tech() {
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 rounded' src={'https://www.svgrepo.com/show/452088/php.svg'} />
-              <p className='text-black mt-2'>PHP</p>
+              <p className='text-[#767676] mt-2'>PHP</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto rounded-md' src={'https://www.svgrepo.com/show/353985/laravel.svg'} />
-              <p className='text-black mt-2'>Laravel</p>
+              <p className='text-[#767676] mt-2'>Laravel</p>
             </div>
 
             <div className='text-center mr-8 lg:mr-20'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/373848/mysql.svg'} />
-              <p className='text-black mt-2'>MySQL</p>
+              <p className='text-[#767676] mt-2'>MySQL</p>
             </div>
 
             <div className='text-center'>
               <img className='w-16 m-auto' src={'https://www.svgrepo.com/show/303266/nodejs-icon-logo.svg'} />
-              <p className='text-black mt-2'>NodeJS</p>
+              <p className='text-[#767676] mt-2'>NodeJS</p>
             </div>
 
           </div>
