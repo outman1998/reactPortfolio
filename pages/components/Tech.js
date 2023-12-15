@@ -21,10 +21,10 @@ export default function Tech() {
           </div>
 
           <div className='lg:ml-12 mt-10 lg:mt-0 max-w-3xl m-auto lg:m-0 text-center lg:text-left lg:w-[500px] '>
-            <p className=' font-bold text-xl dark:text-[#32383d] text-[#137efb]'>About Me</p>
-            <h3 className='font-bold text-2xl mb-3 text-[#2d2e32] dark:text-white'>A dedicated front-end developer based in Copenhagen, Denmark</h3>
+            <p className=' font-bold text-xl dark:text-[#32383d] text-[#137efb] text-left'>About Me</p>
+            <h3 className='font-bold text-2xl mb-3 text-[#2d2e32] dark:text-white text-left'>A dedicated front-end developer based in Copenhagen, Denmark</h3>
 
-            <p className='text-[#767676] dark:text-white'>
+            <p className='text-[#767676] dark:text-white text-justify'>
             As a junior front-end developer, I have developed proficiency in essential technologies including JavaScript, React, Next.js, Tailwind, HTML, and CSS. I specialize in designing and maintaining responsive websites, prioritizing a seamless user experience. My focus is on crafting dynamic, engaging interfaces by employing clean and optimized code while staying updated on the latest development tools and techniques. I am also dedicated to collaborative work, thriving in team environments to contribute to the creation of outstanding projects.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function Tech() {
 
         <div className='text-center mt-20'>
 
-          <p className='font-bold text-2xl mb-6 text-[#2d2e32] dark:text-white'>Front-end technologies I prefer using</p>
+          <p className='font-bold text-2xl mb-6 text-[#2d2e32] dark:text-white text-left'>Front-end technologies I prefer using</p>
 
           <div className='flex flex-wrap md:flex-nowrap justify-center items-center'>
             <div className='text-center w-1/2 mb-5 md:mb-0'>
