@@ -26,20 +26,20 @@ export default function Intro() {
         <div className=' flex flex-col-reverse lg:flex-row items-center justify-end'>
 
             <div className='lg:pr-10 lg:w-1/2 pt-10 lg:pt-0'>
-                <div className='text-center lg:text-start'>
-                <h2 className=' text-7xl lg:py-2 text-[#2d2e32] dark:text-white font-bold'>Hi there, I'm Outman</h2>
-                <p className='text-md pb-3 lg:py-5 lg:px-0 leading-8 dark:text-white md:text-xl mx-auto text-[#555555]'>
+                <div className=' lg:text-start'>
+                <h2 className=' text-6xl lg:text-7xl lg:py-2 text-[#2d2e32] dark:text-white font-bold'>Hi there, I'm Outman</h2>
+                <p className='text-md py-3 lg:py-5 lg:px-0 leading-8 dark:text-white md:text-xl mx-auto text-[#555555] text-left'>
                 Hi, I'm a junior front-end developer currently studying web development with focus on webapps, single page applications, database management & fullstack development.
                 </p>
                 </div>
-                <div className='text-5xl flex lg:justify-start justify-center gap-6 lg:pb-0 text-gray-600'>
+                <div className='text-5xl flex lg:justify-start gap-6 pb-2 text-gray-600'>
 
                 <FaFacebookSquare className='cursor-pointer w-7 text-[#2d2e32] dark:text-white' onClick={() => sendToFb()}/>
                 <FiLinkedin className='cursor-pointer w-8 text-[#2d2e32] dark:text-white' onClick={() => sendTolinkedIn()} />
                 <FiGithub className='cursor-pointer w-8 text-[#2d2e32] dark:text-white' onClick={() => sendtoGithub()} />
 
                 </div>
-                <div className='flex items-center justify-center lg:justify-normal'>
+                <div className='flex items-center justify-start lg:justify-normal'>
                   <div className='bg-red-500 dark:bg-[#65e295] w-[12px] h-[12px] rounded-full mr-1'></div>
                   <p className='text-black dark:text-white'>Open to work</p>
                 </div>
