@@ -40,7 +40,7 @@ export default function Intro() {
 
                 </div>
                 <div className='flex items-center justify-start lg:justify-normal'>
-                  <div className='bg-red-500 dark:bg-[#65e295] w-[12px] h-[12px] rounded-full mr-1'></div>
+                  <div className='bg-red-500 dark:bg-[#65e295] w-[12px] h-[12px] rounded-full mr-1 shrinkAndGrow animate-pulse'></div>
                   <p className='text-black dark:text-white'>Open to work</p>
                 </div>
 
