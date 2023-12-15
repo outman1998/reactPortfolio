@@ -7,7 +7,6 @@ import Tech from './components/Tech';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
-import om from '../public/om.png';
 
 export default function Home() {
 
@@ -20,7 +19,7 @@ export default function Home() {
       <Head>
         <title>Outman El Mounir</title>
         <meta name='description' content='Outman El Mounirs portfolio' />
-        <link rel="icon" href={om} />
+        <link rel="icon" href='https://www.stefantopalovic.com/porticon.png' />
       </Head>
 
       <main className=' text-white dark:bg-[#19222a] bg-white'> 
