@@ -46,7 +46,7 @@ export default function Intro() {
 
             </div>
             <div className='m-auto lg:w-1/2'>
-            <Image className='specialDiv billed m-auto w-60 lg:w-96' src={foto}/>
+            <Image alt='img' className='specialDiv billed m-auto w-60 lg:w-96' src={foto}/>
             </div>
 
         </div>

@@ -37,7 +37,7 @@ export default function Portfolio(props) {
             <div className='pro_1 dark:bg-[#11111133] bg-white shadow-md lg:flex lg:flex-row lg:gap-4 lg:h-96 p-4'>
 
               <div className='pro_img bg-hsla bg-opacity-20 shadow-md overflow-hidden h-[10rem] lg:h-full'>
-                <Image className='image w-full h-full rounded-lg' src={crypto} />
+                <Image alt='img' className='image w-full h-full rounded-lg' src={crypto} />
               </div>
 
               <div className='pro_text flex flex-col items-center justify-center h-auto text-center text-[#2d2e32] dark:text-white mt-5 lg:w-1/2'>
@@ -82,7 +82,7 @@ export default function Portfolio(props) {
             <div className='pro_1 dark:bg-[#11111133] bg-white rounded-xl shadow-md lg:flex lg:flex-row-reverse lg:gap-4 lg:h-96 p-4'>
 
               <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-[10rem] lg:h-full'>
-                <Image className='w-full h-full rounded-lg' src={weather} />
+                <Image alt='img' className='w-full h-full rounded-lg' src={weather} />
               </div>
 
               <div className='pro_text flex flex-col items-center justify-center h-auto text-center text-[#2d2e32] dark:text-white mt-5 lg:w-1/2'>
@@ -125,7 +125,7 @@ export default function Portfolio(props) {
 
             <div className='pro_1 dark:bg-[#11111133] bg-white rounded-xl shadow-md lg:flex lg:flex-row lg:gap-4 lg:h-96 p-4'>
               <div className='pro_img bg-hsla bg-opacity-20 rounded-7xl shadow-md overflow-hidden h-[10rem] lg:h-full'>
-                <Image width="240" className='w-full h-full rounded-lg' src={webshop} />
+                <Image alt='img' width="240" className='w-full h-full rounded-lg' src={webshop} />
               </div>
 
               <div className='pro_text flex flex-col items-center justify-center h-auto text-center text-[#2d2e32] dark:text-white mt-5 lg:w-1/2'>
