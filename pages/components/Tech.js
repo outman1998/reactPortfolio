@@ -20,7 +20,7 @@ export default function Tech() {
             </span>
           </div>
 
-          <div className='lg:ml-20 mt-10 lg:mt-0 max-w-3xl m-auto lg:m-0 text-center lg:text-left lg:w-[500px] '>
+          <div className='lg:ml-12 mt-10 lg:mt-0 max-w-3xl m-auto lg:m-0 text-center lg:text-left lg:w-[500px] '>
             <p className=' font-bold text-xl dark:text-[#32383d] text-[#137efb]'>About Me</p>
             <h3 className='font-bold text-2xl mb-3 text-[#2d2e32] dark:text-white'>A dedicated front-end developer based in Copenhagen, Denmark</h3>
 

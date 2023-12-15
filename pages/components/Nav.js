@@ -7,10 +7,10 @@ export default function ({darkMode, setDarkMode}) {
 
 
   return (
-    <section className='absolute w-full px-5 shadow-md bg-white dark:bg-[#19222a]'>
+    <section className='absolute w-full px-5 shadow-md bg-white dark:bg-[#19222a] font'>
 
     <nav className=' py-5 flex justify-between'>
-      <h1 className=' text-xl font-bold text-[#2d2e32] dark:text-white'>Outman.dev</h1>
+      <h1 className=' text-xl font-bold text-[#2d2e32] dark:text-white'>Outman</h1>
       <ul className=' flex items-center'>
         {darkMode ? <li> 
           <BsFillMoonStarsFill 

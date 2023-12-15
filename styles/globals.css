@@ -89,3 +89,8 @@ body {
   max-height: 430px;
   max-width: 300px;
 }
+
+
+.font {
+  font: Montserrat, sans-serif;
+}
