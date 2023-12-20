@@ -2,7 +2,6 @@ import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import Image from 'next/image'
 import foto from '../../public/self.jpg'
-import selfie from '../../public/selfie.JPG'
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 
