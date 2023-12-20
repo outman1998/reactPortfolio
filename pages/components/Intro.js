@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebookSquare } from "react-icons/fa";
 import Image from 'next/image'
 import foto from '../../public/self.jpg'
+import selfie from '../../public/selfie.JPG'
 import { FiLinkedin } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 
@@ -27,9 +28,9 @@ export default function Intro() {
 
             <div className='lg:pr-10 lg:w-1/2 pt-10 lg:pt-0'>
                 <div className=' lg:text-start'>
-                <h2 className=' text-6xl lg:text-7xl lg:py-2 text-[#2d2e32] dark:text-white font-bold'>Hi there, I'm Outman</h2>
+                <h2 className=' text-4xl lg:text-7xl lg:py-2 text-[#2d2e32] dark:text-white font-bold'>Hi there, I'm Outman</h2>
                 <p className='text-md py-3 lg:py-5 lg:px-0 leading-8 dark:text-white md:text-xl mx-auto text-[#555555] text-left'>
-                Hi, I'm a junior front-end developer currently studying web development with focus on webapps, single page applications, database management & fullstack development.
+                Hi, I'm a front-end developer currently studying web development with focus on webapps, single page applications, database management & fullstack development.
                 </p>
                 </div>
                 <div className='text-5xl flex lg:justify-start gap-6 pb-2 text-gray-600'>

@@ -42,7 +42,7 @@ export default function Portfolio(props) {
 
               <div className='pro_text flex flex-col items-center justify-center h-auto text-center text-[#2d2e32] dark:text-white mt-5 lg:w-1/2'>
                 <h3 className='font-bold text-lg'>Cryptohunter.com</h3>
-                <p className='text-[#767676] w-[80%] font-semibold'>cryptoHunter is a crypto app that allows users to search for information about various cryptocurrencies in real-time.</p>
+                <p className='text-[#767676] w-[80%] font-semibold'>Cryptohunter is a crypto app that allow users to search for information about various crypto currencies in real-time.</p>
 
                 <div className='flex text-[#2d2e32] dark:text-white gap-4 justify-center mt-4'>
                   <p 
@@ -129,7 +129,7 @@ export default function Portfolio(props) {
               </div>
 
               <div className='pro_text flex flex-col items-center justify-center h-auto text-center text-[#2d2e32] dark:text-white mt-5 lg:w-1/2'>
-                <h3 className='font-bold text-lg'>ECOMMERCE</h3>
+                <h3 className='font-bold text-lg'>E-commerce</h3>
                 <p className='text-[#767676] w-[80%] font-semibold'>With focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.
                 </p>
 
